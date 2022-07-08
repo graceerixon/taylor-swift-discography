@@ -1,0 +1,54 @@
+.gallery {
+  margin: 5% 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.galleryItem {
+  list-style-type: none;
+  opacity: 1;
+}
+
+.galleryItem:hover img {
+  opacity: .6;
+}
+
+.backButton {
+  text-align: right;
+  margin: 2% 5%;
+  font-weight: bold;
+}
+
+.backButton:hover {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+}
+
+.details {
+  text-align: center;
+}
+
+.cover {
+  display: block;
+  margin: auto;
+}
+
+.trackList {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.listItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.listItem a:hover {
+  font-weight: bold;
+}
